@@ -37,24 +37,24 @@
                         pages
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                        <a class="dropdown-item" href="checkout.html">product checkout</a>
-                        <a class="dropdown-item" href="cart.html">shopping cart</a>
+                        <a class="dropdown-item" href="{{route('checkout')}}">product checkout</a>
+                        <a class="dropdown-item" href="{{route('cart')}}">shopping cart</a>
                       </div>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="{{route('contact')}}">Contact</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="{{route('about')}}">About</a>
                     </li>
                   </ul>
                 </div>
                 <div class="hearer_icon d-flex">
                   <a id="search_1" href="#"><i style="color: #78909c" class="fa-solid fa-magnifying-glass"></i></a>
-                  <a href="wishlist.html"><i style="color: #78909c" class="fa-regular fa-heart"></i></a>
-                  <a href="cart.html"><i style="color: #78909c" class="fas fa-cart-plus"></i></a>
+                  <a href="{{route('wishlist')}}"><i style="color: #78909c" class="fa-regular fa-heart"></i></a>
+                  <a href="{{route('cart')}}"><i style="color: #78909c" class="fas fa-cart-plus"></i></a>
                 </div>
               </nav>
             </div>
