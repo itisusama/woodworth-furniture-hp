@@ -1,16 +1,8 @@
 @extends('frontend.layout.master')
 @section('website-content')
-     <!-- START:: TOP Banner -->
-     <section class="top-banner">
-        <div class="top-banner-img">
-          <img src="{{asset('frontend/assets/images/breadcrumb1.png')}}" alt="Banner" class="img-fluid">
-          <div class="text-container">
-            <h2>About</h2>
-            <p><a href="index.html"> Home </a>> About</p>
-          </div>
-        </div>       
-      </section>
-      <!-- END:: TOP Banner -->
+@include('frontend.components.banner',[
+  'mainText' => 'about',
+])
   
       <!-- START:: About Section -->
       <section class="about-section mb-5">

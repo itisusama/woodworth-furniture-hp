@@ -3,17 +3,9 @@
 <link rel="stylesheet" href="{{asset('frontend/assets/css/nice-select.css')}}">
 @endsection
 @section('website-content')
-    <!-- START:: TOP Banner -->
-    <section class="top-banner">
-        <div class="top-banner-img">
-          <img src="{{asset('frontend/assets/images/breadcrumb1.png')}}" alt="Banner" class="img-fluid">
-          <div class="text-container">
-            <h2>Checkout</h2>
-            <p><a href="index.html"> Home </a>> <a href="shop.html"> Shop </a> > Checkout</p>
-          </div>
-        </div>       
-      </section>
-      <!-- END:: TOP Banner -->
+@include('frontend.components.banner',[
+  'mainText' => 'check out',
+])
   
       <!-- START: Customer and Cupon bar -->
       <section class="customer-and-cupon px-5 mt-3">
