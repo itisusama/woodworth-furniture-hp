@@ -27,7 +27,7 @@
                         <a class="dropdown-item" href="{{route('allproducts')}}">
                           All Products
                         </a>
-                        <a class="dropdown-item" href="single-product.html">
+                        <a class="dropdown-item" href="{{route('singleproduct')}}">
                           product details
                         </a>
                       </div>

@@ -1,6 +1,7 @@
 @extends('frontend.layout.master')
 @section('website-content')
 @section('custom-css')
+<link rel="stylesheet" href="{{asset('frontend/assets/css/price_rangs.css')}}">
 <link rel="stylesheet" href="{{asset('frontend/assets/css/nice-select.css')}}">
 @endsection
 @include('frontend.components.banner', [
@@ -296,4 +297,5 @@
 @endsection
 @section('custom-js')
     <script src="{{asset('frontend/assets/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('frontend/assets/js/price_rangs.js')}}"></script>
 @endsection
