@@ -19,7 +19,7 @@
                                 <p><span>10000 </span> Products Found</p>
                             </div>
                             <div class="sort-by">
-                                <h5>Sort: </h5>
+                                <h5 class="mt-2">Sort: </h5>
                                 <select class="wide">
                                     <option data-display="Select">name</option>
                                     <option class="list" value="1">price</option>
