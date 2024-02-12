@@ -1,8 +1,5 @@
 @extends('frontend.layout.master')
 @section('website-content')
-@section('custom-css')
-<link rel="stylesheet" href="{{asset('frontend/assets/css/lightslider.min.css')}}">
-@endsection
 @include('frontend.components.banner', [
     'mainText' => 'single product'
 ])
@@ -13,18 +10,11 @@
             <div class="col-lg-7 col-xl-7">
               <div class="product_slider_img">
                 <div id="vertical">
+                  
                   <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
                     <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
                   </div>
-                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
-                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
-                  </div>
-                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
-                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
-                  </div>
-                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
-                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
-                  </div>
+                
                 </div>
               </div>
             </div>
@@ -483,14 +473,10 @@
             </div>
         </div>
         <div class="row align-items-center justify-content-between">
-            @include('frontend.components.newsletter')
+            @include('frontend.components.bestseller')
         </div>
     </div>
 </section>
 <!-- END:: Best Seller Product Slider -->
 @include('frontend.components.newsletter')
-@endsection
-@section('custom-js')
-    <script src="{{asset('frontend/assets/js/jquery.magnific-popup.js')}}"></script>
-    <script src="{{asset('frontend/assets/js/lightslider.min.js')}}"></script>
 @endsection
