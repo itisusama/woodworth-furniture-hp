@@ -5,8 +5,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -16,8 +16,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -27,8 +27,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -38,8 +38,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -49,8 +49,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -60,8 +60,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -71,8 +71,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
@@ -82,8 +82,8 @@
             <div class="single_product_text">
                 <h4>Quartz Belt Watch</h4>
                 <h3>£150.00</h3>
-                <a href="cart.html" class="add_cart">+ add to cart</a>
-                <a href="wishlist.html" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="{{route('cart')}}" class="add_cart">+ add to cart</a>
+                <a href="{{route('wish')}}" class="add_cart" style="margin-top: -28px;"><i class="fa-regular fa-heart"></i></a>
             </div>
         </div>
     </div>
