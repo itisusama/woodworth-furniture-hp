@@ -11,3 +11,4 @@ Route::view('/cart', 'frontend.cart')->name('cart');
 Route::view('/checkout', 'frontend.checkout')->name('checkout');
 Route::view('/wishlist', 'frontend.wishlist')->name('wishlist');
 Route::view('/allproducts', 'frontend.allproducts')->name('allproducts');
+Route::view('/category', 'frontend.category')->name('category');

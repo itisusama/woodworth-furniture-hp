@@ -48,3 +48,6 @@
     <!-- END: Products -->
     @include('frontend.components.newsletter')
 @endsection
+@section('custom-js')
+    <script src="{{asset('frontend/assets/js/jquery.nice-select.min.js')}}"></script>
+@endsection
