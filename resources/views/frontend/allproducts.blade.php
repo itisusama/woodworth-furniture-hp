@@ -39,7 +39,7 @@
                     </div>
                 </div>
                     {{-- Items --}}
-                    @include('frontend.components.productcards')
+                    @include('frontend.components.productcards', ["columnSize" => "col-lg-3"])
                     {{-- Items --}}
                 </div>
             </div>

@@ -1,4 +1,20 @@
 @extends('frontend.layout.master')
+@section('custom-css')
+    <style>
+        .sales-carousel {
+        position: relative;
+        text-align: center;
+       }
+       .sales-carousel-inner {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background: rgba(255, 255, 255, 0.8); /* Optional: Add a background color with transparency */
+       padding: 20px; /* Optional: Add padding for better visibility */
+      }
+    </style>
+@endsection
 @section('website-content')
     <!-- banner part start-->
     <section class="mycrousel mb-3" style="color: #f8fbff;">
@@ -13,7 +29,7 @@
                                       <div class="banner_text_iner">
                                           <h1>Wood & Cloth Sofa</h1>
                                           <p class="mt-3">Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
-                                          <a href="category.html" class="btn_3 mt-3">Shop Now</a>
+                                          <a onclick="window.location.href='{{route('category')}}'" class="btn_3 mt-3">Shop Now</a>
                                       </div>
                                   </div>
                               </div>
@@ -29,7 +45,7 @@
                                       <div class="banner_text_iner">
                                         <h1>Wood & Cloth Sofa</h1>
                                         <p class="mt-3">Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
-                                          <a href="category.html" class="btn_3 mt-3">Shop Now</a>
+                                          <a onclick="window.location.href='{{route('category')}}'" class="btn_3 mt-3">Shop Now</a>
                                       </div>
                                   </div>
                               </div>
@@ -45,7 +61,7 @@
                                     <div class="banner_text_iner">
                                       <h1>Wood & Cloth Sofa</h1>
                                       <p class="mt-3">Incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
-                                        <a href="category.html" class="btn_3 mt-3">Shop Now</a>
+                                        <a onclick="window.location.href='{{route('category')}}'" class="btn_3 mt-3">Shop Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -63,9 +79,26 @@
 
   <!-- START:: Sales -->
   <div class="owl-carousel px-3 mt-4">
-    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale1.jpg')}}" alt="1"> </div>
-    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale2.jpg')}}" alt="2"> </div>
-    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale3.jpg')}}" alt="3"> </div>
+    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale1.jpg')}}" alt="1"> 
+        <div class="sales-carousel-inner">
+            <h3>Category Heading</h3>
+            <a href="{{route('category')}}" class="btn_3 mt-3">Shop Now</a>
+        </div>
+    </div>
+
+    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale2.jpg')}}" alt="2"> 
+        <div class="sales-carousel-inner">
+            <h3>Category Heading</h3>
+            <a href="{{route('category')}}" class="btn_3 mt-3">Shop Now</a>
+        </div>
+    </div>
+
+    <div class="sales-carousel"> <img src="{{asset('frontend/assets/images/sale3.jpg')}}" alt="3"> 
+        <div class="sales-carousel-inner">
+            <h3>Category Heading</h3>
+            <a href="{{route('category')}}" class="btn_3 mt-3">Shop Now</a>
+        </div>
+    </div>
   </div>
 
   <!-- END:: Sales -->
@@ -96,35 +129,35 @@
             <div class="col-lg-12">
                 <div class="best_product_slider owl-carousel">
                     <div class="single_product_item">
-                        <a href="single-product.html"><img src="{{asset('frontend/assets/images/product/product_1.png')}}" alt=""></a>
+                        <a href="{{route('singleproduct')}}"><img src="{{asset('frontend/assets/images/product/product_1.png')}}" alt=""></a>
                         <div class="single_product_text">
                             <h4>Quartz Belt Watch</h4>
                             <h3>$150.00</h3>
                         </div>
                     </div>
                     <div class="single_product_item">
-                      <a href="single-product.html"><img src="{{asset('frontend/assets/images/product/product_2.png')}}" alt=""></a>
+                      <a href="{{route('singleproduct')}}"><img src="{{asset('frontend/assets/images/product/product_2.png')}}" alt=""></a>
                         <div class="single_product_text">
                             <h4>Quartz Belt Watch</h4>
                             <h3>$150.00</h3>
                         </div>
                     </div>
                     <div class="single_product_item">
-                      <a href="single-product.html"><img src="{{asset('frontend/assets/images/product/product_3.png')}}" alt=""></a>
+                      <a href="{{route('singleproduct')}}"><img src="{{asset('frontend/assets/images/product/product_3.png')}}" alt=""></a>
                         <div class="single_product_text">
                             <h4>Quartz Belt Watch</h4>
                             <h3>$150.00</h3>
                         </div>
                     </div>
                     <div class="single_product_item">
-                      <a href="single-product.html"><img src="{{asset('frontend/assets/images/product/product_4.png')}}" alt=""></a>
+                      <a href="{{route('singleproduct')}}"><img src="{{asset('frontend/assets/images/product/product_4.png')}}" alt=""></a>
                         <div class="single_product_text">
                             <h4>Quartz Belt Watch</h4>
                             <h3>$150.00</h3>
                         </div>
                     </div>
                     <div class="single_product_item">
-                      <a href="single-product.html"><img src="{{asset('frontend/assets/images/product/product_5.png')}}" alt=""></a>
+                      <a href="{{route('singleproduct')}}"><img src="{{asset('frontend/assets/images/product/product_5.png')}}" alt=""></a>
                         <div class="single_product_text">
                             <h4>Quartz Belt Watch</h4>
                             <h3>$150.00</h3>
@@ -152,7 +185,7 @@
                   <div class="single_feature_post_text single_feature_post_first">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="allproducts.html" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_1.png')}}" alt="">
                   </div>
               </div>
@@ -160,7 +193,7 @@
                   <div class="single_feature_post_text single_feature_post_scnd">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="allproducts.html" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_2.png')}}" alt="">
                   </div>
               </div>
@@ -168,7 +201,7 @@
                   <div class="single_feature_post_text single_feature_post_scndlast">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="allproducts.html" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_3.png')}}" alt="">
                   </div>
               </div>
@@ -176,7 +209,7 @@
                   <div class="single_feature_post_text single_feature_post_last">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="allproducts.html" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_4.png')}}" alt="">
                   </div>
               </div>
@@ -209,7 +242,7 @@
 
                     <div class="input-group newsletter-btn">
                         <div class="input-group-append">
-                            <a href="shop.html" class="center_btn_2" id="basic-addon2">Shop Now</a>
+                            <a href="{{route('allproducts')}}" class="center_btn_2" id="basic-addon2">Shop Now</a>
                         </div>
                     </div>
 
