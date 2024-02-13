@@ -14,6 +14,18 @@
                   <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
                     <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
                   </div>
+
+                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
+                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
+                  </div>
+
+                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
+                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
+                  </div>
+
+                  <div data-thumb="{{asset('frontend/assets/images/product/single-product/product_1.png')}}">
+                    <img src="{{asset('frontend/assets/images/product/single-product/product_1.png')}}" />
+                  </div>
                 
                 </div>
               </div>

@@ -6,15 +6,19 @@
     <script src="{{asset('frontend/assets/js/bootstrap.min.js')}}"></script>
     <!-- easing js -->
     <script src="{{asset('frontend/assets/js/jquery.magnific-popup.js')}}"></script>
-    <!-- particles js -->
+
+    <script src="{{asset('frontend/assets/js/lightslider.min.js')}}"></script>
+    <script src="{{asset('frontend/assets/js/masonry.pkgd.min.js')}}"></script>
+
     <script src="{{asset('frontend/assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('frontend/assets/js/jquery.nice-select.min.js')}}"></script>
     <!-- slick js -->
     <script src="{{asset('frontend/assets/js/slick.min.js')}}"></script>
     <script src="{{asset('frontend/assets/js/jquery.counterup.min.js')}}"></script>
     <script src="{{asset('frontend/assets/js/jquery.ajaxchimp.min.js')}}"></script>
     <script src="{{asset('frontend/assets/js/jquery.form.js')}}"></script>
     <script src="{{asset('frontend/assets/js/jquery.validate.min.js')}}"></script>
+    
+    <script src="{{asset('frontend/assets/js/jquery.nice-select.min.js')}}"></script>
     <!-- custom js -->
     <script src="{{asset('frontend/assets/js/custom.js')}}"></script>
 

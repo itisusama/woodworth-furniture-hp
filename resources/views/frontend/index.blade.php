@@ -10,8 +10,9 @@
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
-       background: rgba(255, 255, 255, 0.8); /* Optional: Add a background color with transparency */
-       padding: 20px; /* Optional: Add padding for better visibility */
+       background: rgba(255, 255, 255, 0.459);
+       border-radius: 10px;
+       padding: 20px;
       }
     </style>
 @endsection

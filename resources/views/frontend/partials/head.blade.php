@@ -21,4 +21,5 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="{{asset('frontend/assets/css/style.css')}}" />
     <link rel="stylesheet" href="{{asset('frontend/assets/css/homebanner.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/css/lightslider.min.css')}}">
     <!-- END:: Styles -->
