@@ -11,7 +11,7 @@
       <section class="customer-and-cupon px-5 mt-3">
         <!-- Coupen -->
         <div class="container-fluid returning-customer p-2 mt-3">
-          <p> <i class="fa-regular fa-file"></i> Have a Coupon? <a href="login.html">Click Here to Enter Your Code</a></p> 
+          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium modi neque hic culpa deserunt pariatur? Consequuntur fuga, consectetur odio blanditiis quibusdam facilis in aliquam, quaerat ratione rerum earum cumque vel. </p> 
         </div>
       </section>
       <!-- END: Customer and Cupon bar -->

@@ -36,7 +36,7 @@
                 <h2>$149.99</h2>
                 <ul class="list">
                   <li>
-                    <a class="active" href="#">
+                    <a class="active" href="{{route('category')}}">
                       <span>Category</span> : category name</a>
                   </li>
                   <li>
@@ -53,8 +53,8 @@
                     <input class="input-number" type="text" value="1" min="0" max="10">
                     <span class="number-increment"> <i class="fa-solid fa-plus"></i></span>
                   </div>
-                  <a href="#" class="btn_3">add to cart</a>
-                  <a href="#" class="like_us"> <i class="fa-regular fa-heart"></i> </a>
+                  <a href="{{route('cart')}}" class="btn_3">add to cart</a>
+                  <a href="{{route('wishlist')}}" class="like_us"> <i class="fa-regular fa-heart"></i> </a>
                 </div>
               </div>
             </div>

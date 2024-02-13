@@ -24,13 +24,9 @@
                                         <button style="color: black;" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                           <small>Category Name</small>
                                         </button>
-                                        <ul class="dropdown-menu p-2" style="background-color: white;">
-                                          <li><a href="#">Sub Category 1</a></li>
-                                          <li><a href="#">Sub Category 2</a></li>
-                                          <li><a href="#">Sub Category 3</a></li>
-                                          <hr>
-                                          <li><a href="allproducts.html">See All</a></li>
-                                        </ul>
+                                        {{-- Dropdown --}}
+                                        @include('frontend.components.dropdown')
+                                        {{-- Dropdown --}}
                                       </div>
                                     </li>
                                     <li>
@@ -38,13 +34,9 @@
                                         <button style="color: black;" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                           <small>Category Name</small>
                                         </button>
-                                        <ul class="dropdown-menu p-2" style="background-color: white;">
-                                          <li><a href="#">Sub Category 1</a></li>
-                                          <li><a href="#">Sub Category 2</a></li>
-                                          <li><a href="#">Sub Category 3</a></li>
-                                          <hr>
-                                          <li><a href="allproducts.html">See All</a></li>
-                                        </ul>
+                                        {{-- Dropdown --}}
+                                        @include('frontend.components.dropdown')
+                                        {{-- Dropdown --}}
                                       </div>
                                     </li>
                                     <li>
@@ -52,13 +44,9 @@
                                         <button style="color: black;" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                           <small>Category Name</small>
                                         </button>
-                                        <ul class="dropdown-menu p-2" style="background-color: white;">
-                                          <li><a href="#">Sub Category 1</a></li>
-                                          <li><a href="#">Sub Category 2</a></li>
-                                          <li><a href="#">Sub Category 3</a></li>
-                                          <hr>
-                                          <li><a href="allproducts.html">See All</a></li>
-                                        </ul>
+                                        {{-- Dropdown --}}
+                                        @include('frontend.components.dropdown')
+                                        {{-- Dropdown --}}
                                       </div>
                                     </li>
                                     <li>
@@ -66,13 +54,9 @@
                                         <button style="color: black;" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                           <small>Category Name</small>
                                         </button>
-                                        <ul class="dropdown-menu p-2" style="background-color: white;">
-                                          <li><a href="#">Sub Category 1</a></li>
-                                          <li><a href="#">Sub Category 2</a></li>
-                                          <li><a href="#">Sub Category 3</a></li>
-                                          <hr>
-                                          <li><a href="allproducts.html">See All</a></li>
-                                        </ul>
+                                        {{-- Dropdown --}}
+                                        @include('frontend.components.dropdown')
+                                        {{-- Dropdown --}}
                                       </div>
                                     </li>
                                 </ul>
