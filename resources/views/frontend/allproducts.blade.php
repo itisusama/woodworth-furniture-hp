@@ -39,7 +39,15 @@
                     </div>
                 </div>
                     {{-- Items --}}
-                    @include('frontend.components.productcards', ["columnSize" => "col-lg-3"])
+                    <div class="row align-items-center">
+                        @for ($i = 1; $i <= 8; $i++)
+                        @include('frontend.components.productcards', [
+                            "columnSize" => "col-lg-3",
+                            "productImage" => "frontend/assets/images/product/product_" . $i . ".png"
+                        ])
+                        @endfor
+                    @include('frontend.components.pagination')
+                    </div>
                     {{-- Items --}}
                 </div>
             </div>

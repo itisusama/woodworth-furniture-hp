@@ -145,7 +145,15 @@
                     </div>
 
                     {{-- Items --}}
-                    @include('frontend.components.productcards', ["columnSize" => "col-lg-4"])
+                    <div class="row align-items-center">
+                        @for ($i = 1; $i <= 9; $i++)
+                        @include('frontend.components.productcards', [
+                            "columnSize" => "col-lg-4",
+                            "productImage" => "frontend/assets/images/product/product_" . $i . ".png"
+                        ])
+                        @endfor
+                    @include('frontend.components.pagination')
+                    </div>
                     {{-- Items --}}
                 </div>
             </div>
