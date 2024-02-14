@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     
-                  <div class="row mt-3 mb-3">
+                  <div class="row mb-3">
                     <div class="col-lg-12">
                         <div class="top-bar-container bg-light px-4 py-2">
                             <div>

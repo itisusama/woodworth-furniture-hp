@@ -1,5 +1,5 @@
-<!-- START:: TOP Banner -->
-<section class="top-banner">
+   <!-- START:: TOP Banner -->
+   <section class="top-banner">
     <div class="top-banner-img">
       <img src="{{asset('frontend/assets/images/breadcrumb1.png')}}" alt="Banner" class="img-fluid">
       <div class="text-container">
