@@ -17,7 +17,7 @@
         <div class="second-banner mt-5 mb-5">
           <div class="container">
             <!-- Add the "image-hover" class to the images you want to have the hover effect -->
-            <img src="{{asset('frontend/assets/images/about1-1.jpg.webp')}}" class="image-hover">
+            <img src="{{asset('frontend/assets/images/about1-1.jpg.webp')}}" style="width: 100%; height: 430px" class="image-hover">
           </div>
         </div>
   
@@ -46,7 +46,11 @@
         <!-- Third Content Section -->
         <div class="container mt-7 mb-7">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2">
+              <!-- Add the "image-hover" class to the images you want to have the hover effect -->
+              <img src="{{asset('frontend/assets/images/about1-3.jpg.webp')}}" alt="Picture" class="img-fluid image-hover">
+            </div>
+            <div class="col-md-6 order-1">
               <h6 style="color: #29384B;">WE DESIGN FURNITURE</h6>
               <h3>Design Quality</h3>
               <hr style="color: black; width: 5em; margin-left: 2px; font-weight: bold;">
@@ -57,10 +61,6 @@
       
                 Suspendisse feugiat. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Fusce neque. Nam
                 commodo suscipit quam.</p>
-            </div>
-            <div class="col-md-6">
-              <!-- Add the "image-hover" class to the images you want to have the hover effect -->
-              <img src="{{asset('frontend/assets/images/about1-3.jpg.webp')}}" alt="Picture" class="img-fluid image-hover">
             </div>
           </div>
         </div>

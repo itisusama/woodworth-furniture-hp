@@ -169,7 +169,7 @@
                   <div class="single_feature_post_text single_feature_post_first">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn" style="color: black">Shop Now <i class="fas fa-play" style="color: black"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_1.png')}}" alt="">
                   </div>
               </div>
@@ -177,7 +177,7 @@
                   <div class="single_feature_post_text single_feature_post_scnd">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn" style="color: black">Shop Now <i class="fas fa-play" style="color: black"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_2.png')}}" alt="">
                   </div>
               </div>
@@ -185,7 +185,7 @@
                   <div class="single_feature_post_text single_feature_post_scndlast">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn" style="color: black">Shop Now <i class="fas fa-play" style="color: black"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_3.png')}}" alt="">
                   </div>
               </div>
@@ -193,7 +193,7 @@
                   <div class="single_feature_post_text single_feature_post_last">
                       <p>Premium Quality</p>
                       <h3>Category Name</h3>
-                      <a href="{{route('allproducts')}}" class="feature_btn">Shop Now <i class="fas fa-play"></i></a>
+                      <a href="{{route('allproducts')}}" class="feature_btn" style="color: black">Shop Now <i class="fas fa-play" style="color: black"></i></a>
                       <img src="{{asset('frontend/assets/images/feature/feature_4.png')}}" alt="">
                   </div>
               </div>
