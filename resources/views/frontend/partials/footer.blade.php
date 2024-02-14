@@ -6,9 +6,9 @@
                 <div class="single_footer_part">
                     <h4>Shop</h4>
                     <ul class="list-unstyled">
-                        <li><a href="category.html">Shop Category</a></li>
-                        <li><a href="allproducts.html">All Products</a></li>
-                        <li><a href="single-product.html">Product Details</a></li>
+                        <li><a href="{{route('category')}}">Shop Category</a></li>
+                        <li><a href="{{route('allproducts')}}">All Products</a></li>
+                        <li><a href="{{route('singleproduct')}}">Product Details</a></li>
                     </ul>
                 </div>
             </div>
@@ -16,9 +16,9 @@
                 <div class="single_footer_part">
                     <h4>Pages</h4>
                     <ul class="list-unstyled">
-                        <li><a href="checkout.html">Product Checkout</a></li>
-                        <li><a href="cart.html">Shoping Cart</a></li>
-                        <li><a href="Faq.html">Faq</a></li>
+                        <li><a href="{{route('checkout')}}">Product Checkout</a></li>
+                        <li><a href="{{route('cart')}}">Shoping Cart</a></li>
+                        <li><a href="{{route('faq')}}">Faq</a></li>
                     </ul>
                 </div>
             </div>
@@ -28,8 +28,8 @@
                     <ul class="list-unstyled">
                         <li><a href="">Jobs</a></li>
                         <li><a href="">Brand Assets</a></li>
-                        <li><a href="">Investor Relations</a></li>
-                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="{{route('privacy')}}">Privacy</a></li>
+                        <li><a href="{{route('terms')}}">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>

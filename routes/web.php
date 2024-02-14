@@ -13,3 +13,5 @@ Route::view('/wishlist', 'frontend.wishlist')->name('wishlist');
 Route::view('/allproducts', 'frontend.allproducts')->name('allproducts');
 Route::view('/category', 'frontend.category')->name('category');
 Route::view('/singleproduct', 'frontend.singleproduct')->name('singleproduct');
+Route::view('/terms', 'frontend.terms')->name('terms');
+Route::view('/privacy', 'frontend.privacy')->name('privacy');

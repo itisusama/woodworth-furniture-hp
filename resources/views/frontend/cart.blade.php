@@ -21,7 +21,7 @@
         height: 25px;
         font: 19px;
         text-align: center;
-        border-radius: 50%;
+        /* border-radius: 50%; */
         }
     .qty .minus {
         cursor: pointer;
@@ -32,7 +32,7 @@
         height: 25px;
         font: 19px;
         text-align: center;
-        border-radius: 50%;
+        /* border-radius: 50%; */
         background-clip: padding-box;
     }
     /*Prevent text selection*/

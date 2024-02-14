@@ -17,7 +17,7 @@
         <div class="second-banner mt-5 mb-5">
           <div class="container">
             <!-- Add the "image-hover" class to the images you want to have the hover effect -->
-            <img src="{{asset('frontend/assets/images/about1-1.jpg.webp')}}" style="width: 100%; height: 430px" class="image-hover">
+            <img src="{{asset('frontend/assets/images/about1-1.jpg.webp')}}" class="image-hover">
           </div>
         </div>
   
