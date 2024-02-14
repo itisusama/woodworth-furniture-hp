@@ -2673,11 +2673,11 @@ ul {
   .dropdown:hover .dropdown-menu {
     transform: scale(1);
     display: block;
-    color: #ff3368;
+    color: white;
   }
 
   .dropdown .dropdown-item:hover {
-    color: #ff3368 !important;
+    color: white !important;
   }
 
   .navbar-brand img {
@@ -8560,4 +8560,24 @@ input[id^="exampleFormControlInput1"] {
   margin-bottom: 20px;
 }
 
+}
+
+.sales-carousel {
+  position: relative;
+  text-align: center;
+ }
+ .sales-carousel-inner {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: rgba(255, 255, 255, 0.459);
+ border-radius: 10px;
+ padding: 20px;
+}
+
+@media(max-width:390px){
+  .sales-carousel-inner {
+  width: 80% !important;
+  }
 }

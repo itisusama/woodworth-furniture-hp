@@ -1,21 +1,4 @@
 @extends('frontend.layout.master')
-@section('custom-css')
-    <style>
-        .sales-carousel {
-        position: relative;
-        text-align: center;
-       }
-       .sales-carousel-inner {
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-       background: rgba(255, 255, 255, 0.459);
-       border-radius: 10px;
-       padding: 20px;
-      }
-    </style>
-@endsection
 @section('website-content')
     <!-- banner part start-->
     <section class="mycrousel mb-3" style="color: #f8fbff;">
